@@ -64,3 +64,82 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 876px;
+	margin: 30px;
+	border: 1px solid red;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header img.logo {
+	margin-left: 40px;
+}
+
+header nav a {
+	margin: 0 20px;
+}
+
+div.cta-text {
+	display: inline-block;
+}
+
+div.cta-text h1 {/* Why doesn't it work when I do h1.cta-text? */
+	font-size: 80px; 
+	margin-left: 40px;
+	margin-top: 170px;
+	text-align: center;
+}
+
+div.cta-text button {/* Why doesn't it work when I do button, or button.cta-text? */
+	font-size: 15px;
+	margin-left: 135px;
+	border: 1px solid black;
+	padding: 3px 20px;
+}
+
+section.cta img {
+	margin-left: 100px;
+	vertical-align: center;
+}
+
+img.cta-text { /* Why doesn't it move even with margin changes? */
+	display: inline-block;
+	margin: 300px;
+}
+
+
+.first-section-divs {
+	display: inline-block;
+	width: 400px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+
+.third-section-divs {
+	display: inline-block;
+	width: 250px;
+	margin-left: 10px;
+}
+
+h4 {
+	margin-top: 40px;
+}
+
+.contact {
+	margin-left: 10px;
+}
+
+footer {
+	margin-top: 30px;
+	margin-left: 350px;
+}
+
+/* What's with all the code push on git? do I have to do it?*/
+
+
+/* how do I center align?*/
